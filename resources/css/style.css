@@ -3,8 +3,13 @@
 font-family: 'Roboto Slab', serif;
 }
 
-.underline-on-hover:hover {
+.effects:hover {
   text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color:lightgrey;
+  transition-property: color;
+  color: gray;
+  transition-duration: 500ms;
 }
 
 /* 
@@ -22,10 +27,9 @@ font-family: 'Roboto Slab', serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 69px;
+    height: 64px;
     border: 1px solid gainsboro;
     font-size: 1.5rem;
-    padding: 0 20px;
   }
 
   .left-side {
@@ -41,14 +45,26 @@ font-family: 'Roboto Slab', serif;
     list-style: none;
     display: flex;
     margin-left: auto;
-  }
-
-  .navbar li {
-    margin-left: 25px;
     margin-right: 24px;
   }
 
+  .navbar li {
+    margin-left: 24px;
+    font-family: "Roboto Slab", serif;
+  }
+
+  .logo_colmar {
+    color: gray;
+    font-weight: bold;
+  }
+
+  .logo_academy {
+    color: lightgray;
+    font-weight: bold;
+  }
+
 }
+
 
 
   
