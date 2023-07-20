@@ -1,37 +1,91 @@
-/* Desktop */
-
-
-
-
-
-font-family: 'Roboto', sans-serif;
+* {
+  font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
+}
 
+.underline-on-hover:hover {
+  text-decoration: underline;
+}
 
 /* 
-  Device = Desktops
-  Screen = 1281px to higher resolution desktops
+  Device = Desktops, Laptops
+  Screen = 1025px to higher resolution
 */
 
-@media (min-width: 1281px) {
+@media (min-width: 1025px) {
   
-    /* CSS */
-    
+  html {
+    font-size: 16px;
   }
-  
-  
-  /* 
-    Device = Laptops, Desktops
-    Screen = B/w 1025px to 1280px
-  */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    
-    /* CSS */
-    
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border: 1px solid gainsboro;
+    font-size: 1.5rem;
+    padding: 0 20px;
   }
+
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+
+  .left-side img {
+    padding-left: 24px;
+  }
+
+  .navbar {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+  }
+
+  .navbar li {
+    margin-left: 25px;
+    margin-right: 24px;
+  }
+
+}
+
+
+  
+  
+  
+  
   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
   /* 
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
