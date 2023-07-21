@@ -1,3 +1,4 @@
+/* Font families */ 
 * {
   font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
@@ -29,6 +30,7 @@ button.go:hover{
     font-size: 16px;
   }
 
+  /* Logo, tilte, navbar */
   header {
     display: flex;
     justify-content: space-between;
@@ -70,9 +72,10 @@ button.go:hover{
     font-weight: bold;
   }
 
+  /* Welcome-section */
   #welcome {
     background-color: lightgray;
-    height: 880px;
+    height: 1000px;
     display: flex;
   }
 
@@ -86,14 +89,18 @@ button.go:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 24px;
-    padding-right: 48px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
   h1 {
     font-family: "Roboto Slab", serif;
     font-size: 5rem;
     font-weight: bold;
+  }
+
+  h3{
+    font-family: 'Roboto', sans-serif;
   }
 
   .text {
@@ -120,6 +127,24 @@ button.go:hover{
   h3.button {
     font-size: 24px;
   }
+
+  /*Information-section */
+
+  #information {
+    height: 1000px;
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 12px;
+  }
+
+  #information-left {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 60%;
+  }
+
 }
 
 
